@@ -41,6 +41,10 @@ const Toast = Swal.mixin({
 window.Toast = Toast;
 
 
+import VueQrcode from '@chenfengyuan/vue-qrcode';
+
+Vue.component(VueQrcode.name, VueQrcode);
+
 
 import store from './store.js';
 

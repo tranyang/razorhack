@@ -1,3 +1,5 @@
+
+
 <template>
   <div class="chekout">
        <Navbar></Navbar>
@@ -39,6 +41,8 @@
                         />
 
                         <button class='pay-with-stripe btn btn-primary mt-4' @click='pay' :disabled='!complete'>Pay with credit card</button>
+                        <p>Pay with razer pay, Scan QRcode </p>
+                        <qrcode value="Scan QRcode To Pay on Razer Pay" :options="{ width: 200 }"></qrcode>
                   
                 </div>
             </div>
