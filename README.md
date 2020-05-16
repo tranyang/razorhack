@@ -1,4 +1,4 @@
-# goal-shop
+# Razor Merchant (for hackathon only)
 
 ## Project setup
 ```
